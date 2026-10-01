@@ -1,0 +1,41 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache/build
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and model artifacts
+data/raw/
+data/processed/
+models/
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
